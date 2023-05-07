@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.TestPageFinalSummary">
+    <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceAround"
+                >  
+        <Frame Padding="10" Margin="10" BackgroundColor="Green" CornerRadius="10" WidthRequest="250">
+            <StackLayout BackgroundColor="Green">
+                <Label Text="Sector 1" VerticalOptions="CenterAndExpand" 
+                Margin="10">
+
+                </Label>
+                <Label Text="This is another element" HorizontalOptions="Center">
+
+                </Label>
+            </StackLayout>
+        </Frame>
+        <Frame Padding="10" Margin="10" BackgroundColor="Green" CornerRadius="10"  WidthRequest="250">
+            <StackLayout BackgroundColor="Green">
+                <Label Text="Sector 1" VerticalOptions="CenterAndExpand" 
+                Margin="10">
+
+                </Label>
+                <Label Text="This is another element" HorizontalOptions="Center">
+
+                </Label>
+            </StackLayout>
+        </Frame>
+        <Frame Padding="10" Margin="10" BackgroundColor="Green" CornerRadius="10"  WidthRequest="250">
+            <StackLayout BackgroundColor="Green">
+                <Label Text="Sector 1" VerticalOptions="CenterAndExpand" 
+                Margin="10">
+
+                </Label>
+                <Label Text="This is another element" HorizontalOptions="Center">
+
+                </Label>
+            </StackLayout>
+        </Frame>
+    </FlexLayout>
+</ContentPage>
